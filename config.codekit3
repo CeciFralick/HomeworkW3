@@ -16,10 +16,23 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/deploy\/img\/footer\/arrow.png" : {
+      "ft" : 32768,
+      "iS" : 742,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/footer\/arrow.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/footer\/facebook.svg" : {
       "ft" : 2097152,
@@ -41,6 +54,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/footer\/mobile.png" : {
+      "ft" : 32768,
+      "iS" : 351,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/footer\/mobile.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/footer\/twitter.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -51,24 +77,11 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/section-1\/Hero.jpg" : {
-      "ft" : 16384,
-      "iS" : 388676,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-1\/Hero.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/section-2\/circle1.png" : {
+    "\/deploy\/img\/header\/brushlogo.png" : {
       "ft" : 32768,
-      "iS" : 2441030,
+      "iS" : 819,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-2\/circle1.png",
+      "oAP" : "\/deploy\/img\/header\/brushlogo.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -77,11 +90,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/section-2\/circle2.png" : {
+    "\/deploy\/img\/section-1\/Hero.png" : {
       "ft" : 32768,
-      "iS" : 7299175,
+      "iS" : 466755,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-2\/circle2.png",
+      "oAP" : "\/deploy\/img\/section-1\/Hero.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -90,93 +103,119 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/section-3\/mid1.jpg" : {
-      "ft" : 16384,
-      "iS" : 1604652,
-      "jF" : 0,
+    "\/deploy\/img\/section-2\/circl1.png" : {
+      "ft" : 32768,
+      "iS" : 19068,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-3\/mid1.jpg",
+      "oAP" : "\/deploy\/img\/section-2\/circl1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/section-3\/mid2.jpg" : {
-      "ft" : 16384,
-      "iS" : 269292,
-      "jF" : 0,
+    "\/deploy\/img\/section-2\/circl2.png" : {
+      "ft" : 32768,
+      "iS" : 18748,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-3\/mid2.jpg",
+      "oAP" : "\/deploy\/img\/section-2\/circl2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/section-4\/p1.jpg" : {
-      "ft" : 16384,
-      "iS" : 1486414,
-      "jF" : 0,
+    "\/deploy\/img\/section-3\/midd1.png" : {
+      "ft" : 32768,
+      "iS" : 311900,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-4\/p1.jpg",
+      "oAP" : "\/deploy\/img\/section-3\/midd1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/section-4\/p2.jpg" : {
-      "ft" : 16384,
-      "iS" : 915294,
-      "jF" : 0,
+    "\/deploy\/img\/section-3\/midd2.png" : {
+      "ft" : 32768,
+      "iS" : 363946,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-4\/p2.jpg",
+      "oAP" : "\/deploy\/img\/section-3\/midd2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/section-4\/p3.jpg" : {
-      "ft" : 16384,
-      "iS" : 920188,
-      "jF" : 0,
+    "\/deploy\/img\/section-4\/pp1.png" : {
+      "ft" : 32768,
+      "iS" : 180331,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-4\/p3.jpg",
+      "oAP" : "\/deploy\/img\/section-4\/pp1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/section-4\/p4.jpg" : {
-      "ft" : 16384,
-      "iS" : 588991,
-      "jF" : 0,
+    "\/deploy\/img\/section-4\/pp2.png" : {
+      "ft" : 32768,
+      "iS" : 146512,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-4\/p4.jpg",
+      "oAP" : "\/deploy\/img\/section-4\/pp2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/section-4\/p5.jpg" : {
-      "ft" : 16384,
-      "iS" : 174430,
-      "jF" : 0,
+    "\/deploy\/img\/section-4\/pp3.png" : {
+      "ft" : 32768,
+      "iS" : 133017,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-4\/p5.jpg",
+      "oAP" : "\/deploy\/img\/section-4\/pp3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/section-4\/pp4.png" : {
+      "ft" : 32768,
+      "iS" : 152531,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/section-4\/pp4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/section-4\/pp5.png" : {
+      "ft" : 32768,
+      "iS" : 124573,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/section-4\/pp5.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -194,42 +233,66 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/deploy\/js\/scripts-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/design\/structure-tags.sketch" : {
+    "\/deploy\/workspace.code-workspace" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/design\/structure-tags.sketch",
+      "oAP" : "\/deploy\/workspace.code-workspace",
       "oF" : 0
     },
-    "\/dev\/content\/section-6.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/section-6.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/section-6.kit" : {
+    "\/dev\/content\/section-1.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/section-6.html",
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/section-1.html",
       "oF" : 0
     },
-    "\/dev\/footer.kit" : {
+    "\/dev\/content\/section-2.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/footer.html",
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/section-2.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/section-3.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/section-3.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/section-4.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/section-4.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/section-5.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/section-5.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/footer.html",
       "oF" : 0
     },
     "\/dev\/global\/head.kit" : {
@@ -238,14 +301,6 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/head.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/header.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/global\/header.html",
       "oF" : 0
     },
     "\/dev\/global\/header.kit" : {
@@ -268,18 +323,18 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/deploy\/index.html",
-      "oF" : 2
+      "oA" : 0,
+      "oAP" : "\/dev\/index.html",
+      "oF" : 0
     },
     "\/dev\/js\/scripts.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/deploy\/js\/scripts-min.js",
-      "oF" : 2,
+      "oA" : 0,
+      "oAP" : "\/dev\/js\/scripts-min.js",
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
@@ -430,52 +485,12 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/deploy\/css\/styles.css",
-      "oF" : 2,
+      "oA" : 0,
+      "oAP" : "\/dev\/scss\/styles.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/dev\/section-1.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/section-1.html",
-      "oF" : 0
-    },
-    "\/dev\/section-2.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/section-2.html",
-      "oF" : 0
-    },
-    "\/dev\/section-3.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/section-3.html",
-      "oF" : 0
-    },
-    "\/dev\/section-4.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/section-4.html",
-      "oF" : 0
-    },
-    "\/dev\/section-5.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/section-5.html",
-      "oF" : 0
     },
     "\/README.md" : {
       "cB" : 0,
@@ -506,7 +521,7 @@
   "projectAttributes" : {
     "creationDate" : 638898965.76008201,
     "displayValue" : "HomeworkW3",
-    "displayValueWasSetByUser" : 0,
+    "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets-koamaru",
     "iconImageWasSetByUser" : 0
   },
