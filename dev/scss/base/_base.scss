@@ -6,10 +6,16 @@ base {
     grid-template-columns;
 }
 
-section-5 {
+.section-5 {
     display: grid;
     grid-gap: 5px;
     grid-template-columns: 1
+    grid-column;
+    display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 2em;
+  color: #ffeead;
 }
 
 h1 {
@@ -22,7 +28,7 @@ font-family: 'Montserrat', sans-serif;
   }
   
   .container > div:nth-child(3n) {
-    background-color: #88d8b0;
+    background-color: #1e85a5;
   }
   
   .container > div:nth-child(2n) {
@@ -30,5 +36,5 @@ font-family: 'Montserrat', sans-serif;
   }
   
   .container > div:nth-child(4n) {
-        background-color: #ffcc5c;
+        background-color: #2c435e;
   }
