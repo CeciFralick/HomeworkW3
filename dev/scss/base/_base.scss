@@ -1,7 +1,12 @@
 /* =============
     Base
 ============= */
+base {
+    display:grid
+    grid-template-columns; 
+}
 h1 {
 font-family: 'Karla', sans-serif;
 font-family: 'Montserrat', sans-serif;
 }
+
