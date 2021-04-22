@@ -375,6 +375,14 @@ ul li {
   color: #ffeead;
 }
 
+#section-1 {
+  background-color: #f18973;
+}
+
+#section-2 {
+  background-color: #ffbfa2;
+}
+
 h1 {
   font-family: "Karla", sans-serif;
   font-family: "Montserrat", sans-serif;
