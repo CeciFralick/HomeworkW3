@@ -65,6 +65,13 @@ font-family: 'Montserrat', sans-serif;
     width: 80%;
   }
 
+  .left {
+    display: block;
+    margin-left: 50%;
+    margin-right: auto;
+    width: 15%;
+  }
+
   button {
     background-color: #17a8b3;
     border: none;
@@ -75,3 +82,7 @@ font-family: 'Montserrat', sans-serif;
     display: inline-block;
     font-size: 16px;
   }
+
+  #section-2{
+    background-color: coral;
+   }
