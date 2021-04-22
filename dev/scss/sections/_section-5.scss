@@ -10,3 +10,36 @@
         grid-area: section-5;
     }
 }
+
+#section-5 {
+    >div 
+        display:grid;
+          grid-template-columns: 16px auto 16px;
+          grid-tenplate-areas;
+          ul {
+              gap: 16px
+              display: grid
+              grid-area: section-5;
+              #li{
+
+              }
+              #g1 {
+
+              }
+
+             #g2 {
+                  
+            }  
+              #g3 {
+                  
+            }
+              
+              #g4 {
+                  
+            }
+              
+             #g5 {
+                  
+            }
+          }
+}
