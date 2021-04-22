@@ -6,6 +6,14 @@ base {
     grid-template-columns;
 }
 
+ul { 
+  padding: 0;
+  margin: 0;
+  li {
+    list-style: none;
+  }
+}
+
 .section-5 {
     display: grid;
     grid-gap: 5px;
