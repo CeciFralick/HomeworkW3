@@ -3,25 +3,37 @@
 ============= */
 
 #section-5 {
+    @include xl {
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". section-5 .";
+    }
+
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". section-5 .";
     >div{
         grid-area: section-5;
     }
-    .g1 { 
+ img {
+     max-width: 100%;
+ }
+
+    #g1 { 
         text-align: center;}
-    .g2 {
-        text-align: center;
-    }
-    .g3 {
-        text-align: center;
-    }
-    .g4 {
-        text-align: center;
-    }
-    .g5 {
-        text-align: center;
-    }
+    #g2 {
+        text-align: center;}
+    #g3 {
+        text-align: center;}
+    #g4 {
+        text-align: center;}
+    #g5 {
+        text-align: center;}
 }
 
+
+#g1 {grid-area: g1; }
+#g2 {grid-area: g2; }
+#g3 {grid-area: g3; }
+#g4 {grid-area: g4; }
+#g5 {grid-area: g5; }

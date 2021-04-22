@@ -400,6 +400,31 @@ h1 {
   grid-area: auto;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.center_mid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+button {
+  background-color: #17a8b3;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 /* =============
     Typography
 ============= */
@@ -456,4 +481,82 @@ textarea {
 ============= */
 #hero image {
   max-width: 100px;
+}
+
+/* =============
+    Section-2
+============= */
+> div {
+  max-width: 100%;
+}
+
+/* =============
+    Section-3
+============= */
+> div {
+  max-width: 100%;
+}
+
+/* =============
+    Section-4
+============= */
+#section-4 .mid-image {
+  text-align: center;
+}
+
+/* =============
+    Section-5
+============= */
+#section-5 {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". section-5 .";
+}
+@media (min-width: 1200px) {
+  #section-5 {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+    grid-template-areas: ". section-5 .";
+  }
+}
+#section-5 > div {
+  grid-area: section-5;
+}
+#section-5 img {
+  max-width: 100%;
+}
+#section-5 #g1 {
+  text-align: center;
+}
+#section-5 #g2 {
+  text-align: center;
+}
+#section-5 #g3 {
+  text-align: center;
+}
+#section-5 #g4 {
+  text-align: center;
+}
+#section-5 #g5 {
+  text-align: center;
+}
+
+#g1 {
+  grid-area: g1;
+}
+
+#g2 {
+  grid-area: g2;
+}
+
+#g3 {
+  grid-area: g3;
+}
+
+#g4 {
+  grid-area: g4;
+}
+
+#g5 {
+  grid-area: g5;
 }
