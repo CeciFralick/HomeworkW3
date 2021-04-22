@@ -411,7 +411,14 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 60%;
+}
+
+.left {
+  display: block;
+  margin-left: 50%;
+  margin-right: auto;
+  width: 15%;
 }
 
 button {
@@ -473,9 +480,17 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  background-color: #103c49;
+}
+
 /* =============
     Footer
 ============= */
+footer {
+  background-color: #103c49;
+}
+
 /* =============
     Section-1
 ============= */
@@ -486,10 +501,6 @@ textarea {
 /* =============
     Section-2
 ============= */
-> div {
-  max-width: 100%;
-}
-
 /* =============
     Section-3
 ============= */
