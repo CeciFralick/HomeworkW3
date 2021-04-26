@@ -388,22 +388,6 @@ h1 {
   font-family: "Montserrat", sans-serif;
 }
 
-.container > div:nth-child(1n) {
-  background-color: #d6a82a;
-}
-
-.container > div:nth-child(3n) {
-  background-color: #1e85a5;
-}
-
-.container > div:nth-child(2n) {
-  background-color: #ff6f69;
-}
-
-.container > div:nth-child(4n) {
-  background-color: #2c435e;
-}
-
 .section-1 {
   grid-area: auto;
 }
@@ -548,6 +532,21 @@ footer > div {
 /* =============
     Section-2
 ============= */
+@media (min-width: 576px) {
+  #section-2 {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+    grid-template-areas: ". section-2 .";
+  }
+}
+@media (min-width: 768px) {
+  #section-2 {
+    display: grid;
+    grid-template-columns: auto 120px auto;
+    grid-template-areas: ". section-2 .";
+  }
+}
+
 /* =============
     Section-3
 ============= */
