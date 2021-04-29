@@ -597,15 +597,11 @@ footer > div {
 #section-5 {
   display: grid;
   grid-template-columns: 16px auto 16px;
+  grid-template-areas: "box1" "box2" "box3" "box4" "box5";
+  height: auto;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
   grid-template-areas: ". section-5 .";
-}
-@media (min-width: 576px) {
-  #section-5 {
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: "box1" "box2" "box3" "box4" "box5";
-    height: auto;
-  }
 }
 #section-5 #box1 {
   background-color: #ffb497;
@@ -613,6 +609,7 @@ footer > div {
   grid-area: #ffb497;
   text-align: center;
   padding: 40px;
+  margin-bottom: 20px;
   width: fit-content;
 }
 #section-5 #box2 {
@@ -622,11 +619,6 @@ footer > div {
   text-align: center;
   padding: 30px;
   padding-right: 20px;
-}
-@media (min-width: 768px) {
-  #section-5 #box2 {
-    float: right;
-  }
 }
 #section-5 #box3 {
   background-color: #ffb497;
@@ -641,11 +633,6 @@ footer > div {
   grid-area: #ffb497;
   text-align: center;
   padding: 30px;
-}
-@media (min-width: 768px) {
-  #section-5 #box4 {
-    float: right;
-  }
 }
 #section-5 #box5 {
   background-color: #ffb497;

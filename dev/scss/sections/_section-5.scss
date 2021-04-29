@@ -3,7 +3,6 @@
 ============= */
 
 #section-5 {
-    @include sm {
         display: grid;
         grid-template-columns: 16px auto 16px;
         grid-template-areas: 
@@ -13,8 +12,6 @@
         "box4"
         "box5";
         height: auto;
-    }
-
 
 #box1 {
     background-color: rgb(255, 180, 151);
@@ -22,6 +19,7 @@
     grid-area: rgb(255, 180, 151);
     text-align: center;
     padding: 40px;
+    margin-bottom: 20px;
     width: fit-content;
 }
 
@@ -33,7 +31,7 @@
     padding: 30px;
     padding-right: 20px;
     @include md {
-        float:right 
+
     }
 }
 
@@ -52,7 +50,7 @@
     text-align: center;
     padding: 30px;
     @include md {
-        float:right 
+
     }
 
 }
