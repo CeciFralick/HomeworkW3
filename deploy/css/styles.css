@@ -375,12 +375,20 @@ ul li {
   color: #ffeead;
 }
 
+#footerhr {
+  color: #f18973;
+  justify-content: left;
+  align-items: left;
+  width: 500px;
+}
+
 #section-1 {
   background-color: #f18973;
 }
 
 #section-2 {
-  background-color: #ffbfa2;
+  background-color: teal;
+  color: white;
 }
 
 h1 {
@@ -404,6 +412,11 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
+}
+
+.sectwo {
+  margin: 5%;
+  padding-left: 70%;
 }
 
 .left {
@@ -490,7 +503,6 @@ header {
   grid-template-areas: ". header .";
 }
 header > div {
-  border: 1px solid #000;
   grid-area: header;
 }
 
@@ -501,6 +513,10 @@ footer {
   background-color: #103c49;
 }
 
+#h1footer {
+  padding-top: 20px;
+}
+
 footer {
   display: grid;
   grid-template-columns: 16px auto 16px;
@@ -508,6 +524,7 @@ footer {
 }
 footer > div {
   grid-area: footer;
+  color: #ffb497;
 }
 
 /* =============
@@ -525,13 +542,26 @@ footer > div {
 /* =============
     Section-1
 ============= */
-#hero image {
+#section-1 #links {
+  margin: 10px;
+  padding: 20px;
+}
+
+#hero-image {
   max-width: 100px;
 }
 
 /* =============
     Section-2
 ============= */
+#section-2 #first {
+  margin: auto;
+  padding: 16px;
+}
+#section-2 #second {
+  margin: auto;
+  padding: 16px;
+}
 @media (min-width: 576px) {
   #section-2 {
     display: grid;
@@ -569,13 +599,6 @@ footer > div {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". section-5 .";
 }
-@media (min-width: 1200px) {
-  #section-5 {
-    display: grid;
-    grid-template-columns: auto 1200px auto;
-    grid-template-areas: "box1" "box2" "box3" "box4" "box5" ".";
-  }
-}
 @media (min-width: 576px) {
   #section-5 {
     display: grid;
@@ -589,35 +612,47 @@ footer > div {
   color: black;
   grid-area: #ffb497;
   text-align: center;
-  padding: 10px;
+  padding: 40px;
+  width: fit-content;
 }
 #section-5 #box2 {
   background-color: #ffb497;
   color: black;
   grid-area: #ffb497;
   text-align: center;
-  padding: 10px;
+  padding: 30px;
+  padding-right: 20px;
+}
+@media (min-width: 768px) {
+  #section-5 #box2 {
+    float: right;
+  }
 }
 #section-5 #box3 {
   background-color: #ffb497;
   color: black;
   grid-area: #ffb497;
   text-align: center;
-  padding: 10px;
+  padding: 30px;
 }
 #section-5 #box4 {
   background-color: #ffb497;
   color: black;
   grid-area: #ffb497;
   text-align: center;
-  padding: 10px;
+  padding: 30px;
+}
+@media (min-width: 768px) {
+  #section-5 #box4 {
+    float: right;
+  }
 }
 #section-5 #box5 {
   background-color: #ffb497;
   color: black;
   grid-area: #ffb497;
   text-align: center;
-  padding: 10px;
+  padding: 30px;
 }
 #section-5 > div {
   grid-area: section-5;

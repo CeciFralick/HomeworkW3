@@ -3,13 +3,6 @@
 ============= */
 
 #section-5 {
-    @include xl {
-        display: grid;
-        grid-template-columns: auto 1200px auto;
-        grid-template-areas:
-        "box1" "box2" "box3"
-        "box4" "box5"  ".";
-    }
     @include sm {
         display: grid;
         grid-template-columns: 16px auto 16px;
@@ -28,7 +21,8 @@
     color: black;
     grid-area: rgb(255, 180, 151);
     text-align: center;
-    padding: 10px;
+    padding: 40px;
+    width: fit-content;
 }
 
 #box2 {
@@ -36,16 +30,19 @@
     color: black;
     grid-area: rgb(255, 180, 151);
     text-align: center;
-    padding: 10px;
+    padding: 30px;
+    padding-right: 20px;
+    @include md {
+        float:right 
+    }
 }
-
 
 #box3 {
     background-color: rgb(255, 180, 151);
     color: black;
     grid-area: rgb(255, 180, 151);
     text-align: center;
-    padding: 10px;
+    padding: 30px;
 }
 
 #box4 {
@@ -53,7 +50,11 @@
     color: black;
     grid-area: rgb(255, 180, 151);
     text-align: center;
-    padding: 10px;
+    padding: 30px;
+    @include md {
+        float:right 
+    }
+
 }
 
 #box5 {
@@ -61,7 +62,7 @@
     color: black;
     grid-area: rgb(255, 180, 151);
     text-align: center;
-    padding: 10px;
+    padding: 30px;
 }
 
     display: grid;
@@ -74,6 +75,8 @@
      max-width: 100%;
  }
 
+
+ 
     #g1 { 
         text-align: center;}
     #g2 {

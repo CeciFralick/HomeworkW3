@@ -5,11 +5,16 @@ footer {
     background-color: #103c49;
   }
 
+  #h1footer {
+      padding-top: 20px;
+  }
+
   footer { 
       display: grid;
       grid-template-columns: 16px auto 16px;
       grid-template-areas: ". footer .";
       >div {
           grid-area: footer;
+          color:  rgb(255, 180, 151);
       }
   }

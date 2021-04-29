@@ -3,6 +3,17 @@
 ============= */
 
 #section-2 {
+
+    #first{ 
+    margin: auto;
+    padding: 16px;
+    }
+
+    #second{ 
+        margin: auto;
+        padding: 16px;
+        }
+
     @include sm {
         display: grid;
         grid-template-columns: auto 1200px auto;

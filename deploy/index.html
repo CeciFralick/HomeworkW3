@@ -20,7 +20,6 @@
 <body>
     <header>
     <div>
-        <aside></aside>
         <ul>
             <li>
                 <a href=""><img src="img/header/brushlogo.png" alt="brush logo"></a>
@@ -43,25 +42,27 @@
                 <div id = "hero image">  
                     <img src="img/section-1/Hero.png" alt="Open Gallery Image" class="center">
                 </div>
-                <div>
+                <div id = "links">
                     <h1>Interested in a specific exhibit?</h1>
                     <h3>Click here for a full calendar!</h3>
+                    <hr color = "white"> 
                     <h1>Location: West Grove, PA,USA</h1>
                     <h3>Recent Exhibit: Jean Michel Basquiat</h3>
                 </div>
             </section>
     <section id = "section-2">
                    <div>
-                <section id = "1st">
+                <section id = "first">
                     <article>
-                        <img src="img/section-2/circl1.png" alt="Mini Circle1" >
+                        <img src="img/section-2/circl1.png" alt="Mini Circle1" class="sectwo">
                         <h2>Planning your next visit?</h2>
                         <button>Start Here</button>
                     </article>
                 </section>
-                <section id = "2nd">
+                <hr>
+                <section id = "second">
                     <article>
-                        <img src="img/section-2/circl2.png" alt="Mini Circle2">
+                        <img src="img/section-2/circl2.png" alt="Mini Circle2"class="sectwo">
                         <h2>Interested in a piece?</h2>
                         <button>Order Here</button>
                     </article>
@@ -92,47 +93,51 @@
                                     <li id = "g1">
                                         <img src="img/section-4/pp1.png" alt="Alt text 1">
                                         <article class="g1">
-                                            <p>See Newest Permanent Exhibit</p>
+                                            <h3>See Newest Permanent Exhibit</h3>
                                             <p>We had the pleasure of hosting Kusama’s pieces before, but this etherial experience has finally made its forever home here with us!</p>
                                         </article>
                                         <button>Read More</button>
                                     </section>
                                     </li>
+                                    <hr color="white">
                                     <section id = "box2">
                                     <li id = "g2">
                                         <img src="img/section-4/pp2.png" alt="Alt text 1">
                                         <article class="g2">
-                                            <p>June Features Entirely POC Artists.</p>
+                                            <h3>June Features Entirely POC Artists.</h3>
                                             <p>If you ask us, February isn’t the only time we should be highlighting Black and POC artists.</p>
                                         </article>
                                         <button>Read More</button>
                                     </section>
                                     </li>
+                                    <hr color="white">
                                     <section id = "box3">
                                     <li id = "g3">
                                         <img src="img/section-4/pp3.png" alt="Alt text 1">
                                         <article class="g3">
-                                            <p>Renovations Double Installation Space!</p>
+                                            <h3>Renovations Double Installation Space!</h3>
                                             <p>Thanks to donations and funds raised at our community show, we are beyond proud to open up space for dozens of new pieces!</p>
                                         </article>
                                         <button>Read More</button>
                                     </section>
                                     </li>
+                                    <hr color="white">
                                     <section id = "box4">
                                     <li id = "g4">
                                         <img src="img/section-4/pp4.png" alt="Alt text 1">
                                         <article class="g4">
-                                            <p>Classes Offered by Featured Artists!   </p>
+                                            <h3>Classes Offered by Featured Artists!   </h3>
                                             <p>See an updated list of a select few of our featured artists will now be offering classes and tutorials!</p>
                                         </article>
                                         <button>Read More</button>
                                     </section>
                                     </li>
+                                    <hr color="white">
                                     <section id = "box5">
                                     <li id = "g5">
                                         <img src="img/section-4/pp5.png" alt="Alt text 1">
                                         <article class="g5">
-                                            <p>July Features Artists of Philadelphia</p>
+                                            <h3>July Features Artists of Philadelphia</h3>
                                             <p>Twenty Philadelphia based artists will show off their works for all of July! With work ranging from letter-sized collage, all the way to massive scultputes!</p>
                                         </article>
                                         <button>Read More</button>
@@ -144,9 +149,9 @@
     
                                 <footer>
                                 <div>
-                                </article>
-                                    <h1>Locations</h1>
+                                    <h1 id = "h1footer">Locations</h1>
                                     <ul>
+                                        <hr color ="teal">
                                         <li>
                                         <h2>West Grove</h2>
                                         </li>
@@ -163,6 +168,7 @@
                                         <h6>(800)-829-4161</h6>
                                         </li>
                                     </ul>
+                                    <hr color ="teal" id = "footerhr">
                                     <ul>
                                         <li>
                                         <h2>Kennet Square</h2>
@@ -180,6 +186,7 @@
                                         <h6>(877)-526-9213</h6>
                                         </li>
                                     </ul>
+                                    <hr color ="teal" id = "footerhr">
                                     <ul>
                                         <li>
                                         <h2>West Chester</h2>
@@ -197,24 +204,32 @@
                                         <h6>(902)-883-7450</h6>
                                         </li>
                                     </ul>
+                                    <hr color ="teal">
                                     <ul>
-                                    </article>
                                       <li>
                                     <h2>Follow us</h2>
                                       </li>
                                     </ul>
                                     <ul>
                                         <li>
-                                            <a href=""><img src="img/footer/twitter.svg" alt="twitter icon"></a>
+                                            <i class="fab fa-twitter"></i>
                                         </li>
                                         <li>
-                                            <a href=""><img src="img/footer/facebook.svg" alt="Facebook icon"></a>
+                                            <i class="fab fa-facebook-square"></i>
                                         </li>
                                         <li>
-                                            <a href=""><img src="img/footer/instagram.svg" alt="Instagram icon"></a>
+                                            <i class="fab fa-instagram"></i>
                                         </li>
                                     </ul>
-                                    <h3>Newsletter Sign Up</h3>
+                                    <h2>Newsletter Sign Up</h2>
+                                <section>
+                                    <div>
+                                     <form action="POST">
+                                        <input type="text" placeholder="Enter Email Here...">
+                                        <button><i class="fas fa-arrow-right"></i></button>
+                                     </form>
+                                    </div>
+                                </section>
                                 </div>
                                 </footer>
      <!-- jQuery -->

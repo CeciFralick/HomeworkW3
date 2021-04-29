@@ -10,7 +10,6 @@ header{
       grid-template-columns: 16px auto 16px;
       grid-template-areas: ". header .";
       >div {
-          border: 1px solid #000;
           grid-area: header;
       }
     }
