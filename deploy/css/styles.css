@@ -542,7 +542,7 @@ footer > div {
 @media (min-width: 768px) {
   #section-2 {
     display: grid;
-    grid-template-columns: auto 120px auto;
+    grid-template-columns: auto 1200px auto;
     grid-template-areas: ". section-2 .";
   }
 }
