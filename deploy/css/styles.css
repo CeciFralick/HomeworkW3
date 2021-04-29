@@ -582,8 +582,9 @@ footer > div {
 /* =============
     Section-3
 ============= */
-> div {
+#section-3 > div {
   max-width: 100%;
+  margin-top: 20px;
 }
 
 /* =============
@@ -591,6 +592,7 @@ footer > div {
 ============= */
 #section-4 .mid-image {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 /* =============
