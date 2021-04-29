@@ -426,7 +426,7 @@ button {
 
 ul {
   margin: 0;
-  padding: 0;
+  padding: 16px;
 }
 ul li {
   list-style: none;
@@ -573,8 +573,51 @@ footer > div {
   #section-5 {
     display: grid;
     grid-template-columns: auto 1200px auto;
-    grid-template-areas: ". section-5 .";
+    grid-template-areas: "box1" "box2" "box3" "box4" "box5" ".";
   }
+}
+@media (min-width: 576px) {
+  #section-5 {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: "box1" "box2" "box3" "box4" "box5";
+    height: auto;
+  }
+}
+#section-5 #box1 {
+  background-color: #ffb497;
+  color: black;
+  grid-area: #ffb497;
+  text-align: center;
+  padding: 10px;
+}
+#section-5 #box2 {
+  background-color: #ffb497;
+  color: black;
+  grid-area: #ffb497;
+  text-align: center;
+  padding: 10px;
+}
+#section-5 #box3 {
+  background-color: #ffb497;
+  color: black;
+  grid-area: #ffb497;
+  text-align: center;
+  padding: 10px;
+}
+#section-5 #box4 {
+  background-color: #ffb497;
+  color: black;
+  grid-area: #ffb497;
+  text-align: center;
+  padding: 10px;
+}
+#section-5 #box5 {
+  background-color: #ffb497;
+  color: black;
+  grid-area: #ffb497;
+  text-align: center;
+  padding: 10px;
 }
 #section-5 > div {
   grid-area: section-5;
