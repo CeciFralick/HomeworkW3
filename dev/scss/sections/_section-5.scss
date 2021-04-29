@@ -18,9 +18,8 @@
     color: black;
     grid-area: rgb(255, 180, 151);
     text-align: center;
-    padding: 40px;
+    padding: 30px;
     margin-bottom: 20px;
-    width: fit-content;
 }
 
 #box2 {
@@ -29,6 +28,7 @@
     grid-area: rgb(255, 180, 151);
     text-align: center;
     padding: 30px;
+    margin-bottom: 20px;
     padding-right: 20px;
     @include md {
 
@@ -41,6 +41,7 @@
     grid-area: rgb(255, 180, 151);
     text-align: center;
     padding: 30px;
+    margin-bottom: 20px;
 }
 
 #box4 {
@@ -49,6 +50,7 @@
     grid-area: rgb(255, 180, 151);
     text-align: center;
     padding: 30px;
+    margin-bottom: 20px;
     @include md {
 
     }
@@ -61,6 +63,7 @@
     grid-area: rgb(255, 180, 151);
     text-align: center;
     padding: 30px;
+    margin-bottom: 20px;
 }
 
     display: grid;

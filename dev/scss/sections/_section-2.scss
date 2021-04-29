@@ -7,21 +7,23 @@
     #first{ 
     margin: auto;
     padding: 16px;
+    padding-bottom: 16px;
     }
 
     #second{ 
         margin: auto;
         padding: 16px;
+        padding-bottom: 16px;
         }
 
     @include sm {
         display: grid;
-        grid-template-columns: auto 1200px auto;
-        grid-template-areas: ". section-2 .";
+        grid-template-columns: auto 1200px;
+        grid-template-areas: ". section-2";
     }
     @include md {
         display: grid;
-        grid-template-columns: auto 1200px auto;
-        grid-template-areas: ". section-2 .";
+        grid-template-columns: auto 100px;
+        grid-template-areas: ". section-2";
     }
 }
