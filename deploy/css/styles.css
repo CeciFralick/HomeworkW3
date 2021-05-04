@@ -435,6 +435,10 @@ ul li {
   list-style: none;
 }
 
+footer {
+  background-color: #103c49;
+}
+
 /* =============
     Typography
 ============= */
@@ -485,15 +489,22 @@ textarea {
 ============= */
 header {
   background-color: #103c49;
-}
-
-header {
+  color: white;
   display: grid;
-  grid-template-columns: 16px auto 16px;
+  grid-gap: 3px;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: auto;
   grid-template-areas: ". header .";
 }
-header > div {
-  grid-area: header;
+@media (min-width: 768px) {
+  header #logo {
+    display: grid;
+    grid-column: 1/2;
+  }
+  header #title {
+    display: grid;
+    grid-column: 2/3;
+  }
 }
 
 /* =============
@@ -501,20 +512,49 @@ header > div {
 ============= */
 footer {
   background-color: #103c49;
-}
-
-#h1footer {
-  padding-top: 20px;
-}
-
-footer {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
 }
+footer #h1footer {
+  padding-top: 20px;
+}
+@media (min-width: 768px) {
+  footer #h1footer {
+    text-align: left;
+  }
+}
 footer > div {
   grid-area: footer;
   color: #ffb497;
+}
+footer > div #locations {
+  grid-area: "footer";
+}
+footer > div #email {
+  grid-area: "footer";
+}
+@media (min-width: 768px) {
+  footer > div {
+    display: grid;
+    background-color: #103c49;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 16px auto 16px;
+    grid-template-areas: "locations email";
+    gap: 16px;
+  }
+  footer > div #locations {
+    grid-area: #103c49;
+    grid-area: "locations";
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  footer > div #email {
+    background-color: #103c49;
+    grid-area: "email";
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
 }
 
 /* =============
@@ -552,6 +592,7 @@ footer > div {
   color: black;
   grid-area: #ffb497;
   text-align: center;
+  font-size: 15px;
   padding: 30px;
   padding: 10px;
 }
@@ -581,8 +622,10 @@ footer > div {
   #section-2 #sec2 {
     display: grid;
     padding: 5px;
-    grid-template-columns: repeat(3, 2fr);
-    grid-template-rows: 100px 100px 100px;
+    grid-gap: 3px;
+    font-size: 12px;
+    grid-template-columns: repeat(1, 2fr);
+    grid-template-rows: auto auto;
     grid-template-areas: "f" "f";
   }
 }
@@ -590,6 +633,7 @@ footer > div {
   #section-2 #sec2 {
     display: grid;
     grid-gap: 3px;
+    font-size: 13px;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 100px 100px;
     grid-template-areas: "second second";
@@ -604,14 +648,16 @@ footer > div {
     grid-template-areas: "second second";
   }
 }
-#section-2 #sec2 #first {
-  background-color: teal;
-  color: white;
-  padding: 10px;
-  grid-area: #006666;
-  text-align: left;
-  grid-column: 1/1;
-  grid-row: 1/2;
+@media (min-width: 576px) {
+  #section-2 #sec2 #first {
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    grid-area: #006666;
+    text-align: left;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
 }
 @media (min-width: 768px) {
   #section-2 #sec2 #first {
@@ -625,22 +671,24 @@ footer > div {
     grid-row: 1/-1;
   }
 }
-#section-2 #sec2 #second {
-  background-color: teal;
-  color: white;
-  padding: 1px;
-  grid-column: 2/2;
-  grid-row: 1/2;
+@media (min-width: 576px) {
+  #section-2 #sec2 #second {
+    background-color: teal;
+    color: white;
+    padding: 1px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
 }
 @media (min-width: 768px) {
   #section-2 #sec2 #second {
-    grid-column: 3/6;
+    grid-column: 3/-1;
     grid-row: 1/-1;
   }
 }
 @media (min-width: 1024px) {
   #section-2 #sec2 #second {
-    grid-column: 3/6;
+    grid-column: 3/-1;
     grid-row: 1/-1;
   }
 }
@@ -711,6 +759,7 @@ footer > div {
 #section-5 #boxes #box1 {
   background-color: #ffb497;
   color: black;
+  grid-area: box1;
   grid-area: #ffb497;
   text-align: center;
   padding: 30px;
@@ -732,6 +781,7 @@ footer > div {
 #section-5 #boxes #box2 {
   background-color: #ffb497;
   color: black;
+  grid-area: box2;
   grid-area: #ffb497;
   text-align: center;
   padding: 30px;
@@ -753,6 +803,7 @@ footer > div {
 #section-5 #boxes #box3 {
   background-color: #ffb497;
   color: black;
+  grid-area: box3;
   grid-area: #ffb497;
   text-align: center;
   padding: 30px;
@@ -773,6 +824,7 @@ footer > div {
 #section-5 #boxes #box4 {
   background-color: #ffb497;
   color: black;
+  grid-area: box4;
   grid-area: #ffb497;
   text-align: center;
   padding: 30px;
@@ -794,6 +846,7 @@ footer > div {
 #section-5 #boxes #box5 {
   background-color: #ffb497;
   color: black;
+  grid-area: box5;
   grid-area: #ffb497;
   text-align: center;
   padding: 30px;
