@@ -51,19 +51,16 @@ font-family: 'Montserrat', sans-serif;
     grid-area: auto;
   }
 
+  p {
+    font-family: 'Karla', sans-serif;
+    line-height: 22px;
+  }
 
   .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-  }
-
-  .center_mid {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
   }
 
 

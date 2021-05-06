@@ -3,10 +3,12 @@
 ============= */
 
 #section-2 {
+    font-family: 'Montserrat', sans-serif;
+
     #sec2 {
         @include sm {
             display: grid;
-            padding: 5px;            
+            padding: 5px;
             grid-gap: 3px;
             font-size: 11px;
             grid-template-columns: repeat(1, 2fr);
@@ -31,6 +33,7 @@
             grid-template-columns: repeat(6, 1fr);
             grid-template-rows: 100px 100px;
             grid-template-areas: "second second";
+            font-size: 17px;
         }
 
         #first {
@@ -57,11 +60,12 @@
 
         #second {
             @include sm {
-            background-color: teal;
-            color: white;
-            padding: 1px;
-            grid-column: 1 / 2;
-            grid-row: 2 / 3;
+                padding-top: 10px;
+                background-color: teal;
+                color: white;
+                padding: 1px;
+                grid-column: 1 / 2;
+                grid-row: 2 / 3;
             }
 
             @include md {
