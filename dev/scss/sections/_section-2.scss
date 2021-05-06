@@ -8,7 +8,7 @@
             display: grid;
             padding: 5px;            
             grid-gap: 3px;
-            font-size: 12px;
+            font-size: 11px;
             grid-template-columns: repeat(1, 2fr);
             grid-template-rows: auto auto;
             grid-template-areas:
@@ -19,10 +19,10 @@
         @include md {
             display: grid;
             grid-gap: 3px;
-            font-size: 13px;
             grid-template-columns: repeat(6, 1fr);
-            grid-template-rows: 100px 100px;
+            grid-template-rows: 105px 100px;
             grid-template-areas: "second second";
+            font-size: 13px;
         }
 
         @include lg {
