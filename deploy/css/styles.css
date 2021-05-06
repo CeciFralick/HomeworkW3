@@ -818,6 +818,7 @@ footer > div #h1footer {
 }
 @media (min-width: 1024px) {
   #section-4 {
+    display: inline-block;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 200px auto 50px;
