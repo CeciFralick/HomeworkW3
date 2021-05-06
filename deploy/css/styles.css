@@ -525,8 +525,9 @@ footer {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
 }
-footer #smlogos {
+footer #smlogos ul li {
   display: inline-block;
+  font-size: 32px;
 }
 footer h5 {
   font-family: "karla", sans-serif;

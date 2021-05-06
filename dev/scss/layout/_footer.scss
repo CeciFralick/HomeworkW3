@@ -4,9 +4,12 @@
 footer {
 
     #smlogos {
-        display: inline-block; 
-        
-
+        ul {
+            li{
+                display: inline-block; 
+                font-size: 32px;
+            }
+        }
     }
     background-color: #103c49;
 
