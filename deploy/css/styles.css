@@ -496,23 +496,57 @@ header {
   grid-gap: 3px;
   padding-bottom: 20px;
 }
-header #title {
-  display: none;
+header > div {
+  display: grid;
+  grid-template-areas: "burger survival" "nav nav";
+  grid-template-columns: 20% auto;
 }
-@media (min-width: 768px) {
-  header {
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: auto;
-    grid-template-areas: "l t .";
+@media (min-width: 1024px) {
+  header > div {
+    grid-template-areas: "nav survival";
+    grid-template-columns: 20% auto;
   }
-  header #logo {
-    display: grid;
-    grid-column: 1/2;
+}
+header > div #button-container {
+  grid-area: survival;
+  padding: 10px;
+  text-align: right;
+}
+header > div #button-container button {
+  background-color: teal;
+  border-radius: 23px;
+  color: black;
+  display: inline-block;
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding: 10px 20px;
+  border: none;
+  transition: 0.25s;
+}
+header > div #burger-container {
+  align-items: center;
+  display: flex;
+  grid-area: burger;
+  padding: 10px;
+}
+@media (min-width: 1024px) {
+  header > div #burger-container {
+    display: none !important;
   }
-  header #title {
-    display: grid;
-    grid-column: 2/3;
-    font-family: "Montserrat", sans-serif;
+}
+header > div #burger-container i {
+  cursor: pointer;
+  font-size: 1.875rem;
+}
+header > div #nav-container {
+  background-color: charcoal;
+  display: none;
+  grid-area: nav;
+  padding: 20px 10px 10px;
+}
+@media (min-width: 1024px) {
+  header > div #nav-container {
+    display: block !important;
   }
 }
 
